@@ -40,6 +40,7 @@ const tracks = [
 ];
     const services = [["spotify", "Spotify"], ["apple", "Apple Music"], ["youtube", "YouTube Music"]];
     const root = document.getElementById("tracks");
+    root.textContent = "表示テスト成功";
     tracks.forEach((track, index) => {
       const card = document.createElement("article");card.className = "track";
       const head = document.createElement("div");head.className = "trackhead";
